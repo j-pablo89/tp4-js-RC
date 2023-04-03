@@ -92,9 +92,7 @@ const dibujarTabla = (arreglo, titulo='Sin titulo') => {
 };
 
 let listaProtectoresSolares = listaProductos.filter(producto=> producto.nombreProducto.includes('Protector solar'));
-
 let productoSerum = listaProductos.find(producto => producto.nombreProducto.includes('Sérum'));
-
 let productoBruma = listaProductos.find(producto => producto.nombreProducto.includes('Bruma') === true);
 
 dibujarTabla(listaProductos,'Tabla de Productos Completa');

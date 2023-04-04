@@ -82,7 +82,7 @@ class Persona {
 
 let persona1 = new Persona('Juan',15,34185542,'H',80,1.67,1989);
 
-
+persona1.mostrarGeneracion();
 persona1.esMayorDeEdad();
 persona1.mostrarDatos();
 persona1.generaDni();

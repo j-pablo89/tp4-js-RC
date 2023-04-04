@@ -2,7 +2,7 @@
 // con las propiedades de alto y ancho, mas los métodos necesarios para modificar y mostrar sus propiedades, 
 // calcular el perímetro y el área
 
-class rectangulo {
+class Rectangulo {
     #alto;
     #ancho;
     constructor(alto,ancho){
@@ -33,9 +33,9 @@ class rectangulo {
     }
 }
 
-let rectangulo1 = new rectangulo(4,5);
-let rectangulo2 = new rectangulo(10,15);
-let rectangulo3 = new rectangulo(2,3);
+let rectangulo1 = new Rectangulo(4,5);
+let rectangulo2 = new Rectangulo(10,15);
+let rectangulo3 = new Rectangulo(2,3);
 
 console.log(rectangulo1);
 rectangulo1.calculoArea();

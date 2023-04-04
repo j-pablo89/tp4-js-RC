@@ -55,6 +55,4 @@ listaProductos.push(producto1);
 listaProductos.push(producto2);
 listaProductos.push(producto3);
 
-listaProductos.forEach(element => { element.imprimeDatos()
-    
-});
+listaProductos.forEach(element => { element.imprimeDatos()});
